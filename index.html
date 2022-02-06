@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e7c1b367d7.js" crossorigin="anonymous"></script>
+
+    <title>X O Game</title>
+</head>
+
+<body>
+    <div class="sitting"><i class="fas fa-palette"></i>
+        <ul>
+            <li style="background-color: rgb(14, 14, 180);" onclick="changeColor(this)"></li>
+            <li style="background-color: rgb(55, 154, 201);" onclick="changeColor(this)"></li>
+            <li style="background-color: rgb(206, 209, 7);" onclick="changeColor(this)"></li>
+            <li style="  background-color: rgb(167, 14, 39);" onclick="changeColor(this)"></li>
+            <li style="background-color: rgb(112, 12, 151);" onclick="changeColor(this)"></li>
+        </ul>
+    </div>
+    <div class="turn"><span></span> دور الـ</div>
+    <div class="main-square">
+        <div class="square " id="1" onclick="game(this)"></div>
+        <div class="square " id="2" onclick="game(this)"></div>
+        <div class="square" id="3" onclick="game(this)"></div>
+        <div class="square" id="4" onclick="game(this)"></div>
+        <div class="square" id="5 " onclick="game(this)"></div>
+        <div class="square" id="6" onclick="game(this)"></div>
+        <div class="square" id="7" onclick="game(this)"></div>
+        <div class="square" id="8 " onclick="game(this)"></div>
+        <div class="square" id="9" onclick="game(this)"></div>
+    </div>
+    <div class="winner">
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
